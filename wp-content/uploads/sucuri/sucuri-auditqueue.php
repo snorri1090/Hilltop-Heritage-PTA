@@ -3961,3 +3961,8 @@ exit(0);
 1500910802_34:"Error: 127.0.0.1; User authentication failed: jlpta-admin; password: http:\/\/localhost:8888"
 1500910818_94:"Error: 127.0.0.1; User authentication failed: admin; password: D!mmak1090"
 1500910832_62:"Notice: 127.0.0.1; User authentication succeeded: jlpta-admin"
+1500926759_65:"Critical: jlpta-admin, 127.0.0.1; WordPress updated to version: 4.8"
+1500926915_19:"Warning: jlpta-admin, 127.0.0.1; Plugin installed: woocommerce-products-per-page.1.2.2.zip"
+1500926915_75:"Notice: jlpta-admin, 127.0.0.1; Media file added; ID: 593; name: woocommerce-products-per-page.1.2.2.zip; type: "
+1500926917_1:"Warning: jlpta-admin, 127.0.0.1; Post deleted: (multiple entries): Post id: 593"
+1500926919_7:"Warning: jlpta-admin, 127.0.0.1; Plugin activated: Woocommerce Products Per Page (v1.2.2; woocommerce-products-per-page\/woocommerce-products-per-page.php)"

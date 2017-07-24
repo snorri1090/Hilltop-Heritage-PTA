@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: CP Contact Form with PayPal
-Plugin URI: http://cfpaypal.dwbooster.com
+Plugin URI: https://cfpaypal.dwbooster.com
 Description: Inserts a contact form into your website and let you connect it to a Paypal payment.
-Version: 1.2.11
+Version: 1.2.12
 Author: CodePeople, paypaldev
-Author URI: http://cfpaypal.dwbooster.com
+Author URI: https://cfpaypal.dwbooster.com
 License: GPL
 */
 
@@ -445,7 +445,7 @@ function cp_contactformpp_helpLink($links) {
 
 
 function cp_contactformpp_customAdjustmentsLink($links) {
-    $customAdjustments_link = '<a href="http://cfpaypal.dwbooster.com/download">'.__('Upgrade To Premium').'</a>';
+    $customAdjustments_link = '<a href="https://cfpaypal.dwbooster.com/download">'.__('Upgrade To Premium').'</a>';
 	array_unshift($links, $customAdjustments_link);
 	return $links;
 }
@@ -469,17 +469,17 @@ function cp_contactformpp_html_post_page() {
     {                
         if (isset($_GET["page"]) &&$_GET["page"] == 'cp_contact_form_paypal_upgrade')
         {
-            echo("Redirecting to upgrade page...<script type='text/javascript'>document.location='http://cfpaypal.dwbooster.com/download';</script>");
+            echo("Redirecting to upgrade page...<script type='text/javascript'>document.location='https://cfpaypal.dwbooster.com/download';</script>");
             exit;
         } 
         else if (isset($_GET["page"]) &&$_GET["page"] == 'cp_contact_form_paypal_demo')
         {
-            echo("Redirecting to demo page...<script type='text/javascript'>document.location='http://cfpaypal.dwbooster.com/home#demos';</script>");
+            echo("Redirecting to demo page...<script type='text/javascript'>document.location='https://cfpaypal.dwbooster.com/home#demos';</script>");
             exit;
         } 
         else if (isset($_GET["page"]) &&$_GET["page"] == 'cp_contact_form_paypal_doc')
         {
-            echo("Redirecting to demo page...<script type='text/javascript'>document.location='http://cfpaypal.dwbooster.com/documentation?ref=plugin';</script>");
+            echo("Redirecting to demo page...<script type='text/javascript'>document.location='https://cfpaypal.dwbooster.com/documentation?ref=plugin';</script>");
             exit;
         }         
         else
@@ -751,7 +751,7 @@ function cp_contact_form_paypal_check_posted_data() {
     {         
         echo 'Error saving data! Please try again.';
         echo '<br /><br />Error debug information: '.mysql_error();
-        echo '<br /><br />If the error persists please be sure you are using the latest version and in that case contact support service at http://cfpaypal.dwbooster.com/contact-us?debug=db';
+        echo '<br /><br />If the error persists please be sure you are using the latest version and in that case contact support service at https://cfpaypal.dwbooster.com/contact-us?debug=db';
         exit;
     }
 
@@ -1225,7 +1225,7 @@ function cp_contactformpp_save_options()
     $verify_nonce = wp_verify_nonce( $_POST['rsave'], 'cfwpp_update_actions_post');
     if (!$verify_nonce)
     {
-        echo 'Error: Form cannot be authenticated. Please contact our <a href="http://cfpaypal.dwbooster.com/contact-us">support service</a> for verification and solution. Thank you.';
+        echo 'Error: Form cannot be authenticated. Please contact our <a href="https://cfpaypal.dwbooster.com/contact-us">support service</a> for verification and solution. Thank you.';
         return;
     }
 

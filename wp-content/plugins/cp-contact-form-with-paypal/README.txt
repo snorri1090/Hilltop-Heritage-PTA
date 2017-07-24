@@ -1,6 +1,6 @@
 === CP Contact Form with PayPal ===
 Contributors: codepeople, paypaldev
-Donate link: http://cfpaypal.dwbooster.com
+Donate link: https://cfpaypal.dwbooster.com
 Tags: paypal,paypal payment,paypal donation,paypal form,paypal contact form,paypal button,contact form,contact,form,payment,payment form,order form
 Requires at least: 3.0.5
 Tested up to: 4.8
@@ -58,7 +58,7 @@ The following features aren't part of the free version. The following features a
 * Visual form builder: The free version includes a classic predefined form. If you need a different form you will need one of the commercial versions.
 * Work without PayPal, discount codes and dynamic/open prices, additional configuration settings.
 
-If you are interested in a version with the pro features you can get it here: http://cfpaypal.dwbooster.com
+If you are interested in a version with the pro features you can get it here: https://cfpaypal.dwbooster.com
 
 = Language Support =
 
@@ -88,7 +88,7 @@ CP Contact Form with PayPal can be installed following these steps:
 
 A: The product's page contains detailed information about each contact form field and customization:
 
-http://cfpaypal.dwbooster.com
+https://cfpaypal.dwbooster.com
 
 = Q: Where can I publish the CP Contact Form with PayPal with the PayPal button? =
 
@@ -537,7 +537,10 @@ Note also that if you are testing the contact form in the SandBox mode then the 
 = 1.2.11 =
 * Fixed bug in color selectors
 
+= 1.2.12 =
+* Moved plugin website and links to SSL
+
 == Upgrade Notice ==
 
-= 1.2.11 =
-* Fixed bug in color selectors
+= 1.2.12 =
+* Moved plugin website and links to SSL

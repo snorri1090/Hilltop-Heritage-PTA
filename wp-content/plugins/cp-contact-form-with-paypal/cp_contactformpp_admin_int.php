@@ -250,7 +250,7 @@ $scriptmethod = cp_contactformpp_get_option('script_load_method','0');
             </select>
             <br />
            <em> * Note that if you are testing it in a localhost site the PayPal IPN notification won't reach to your website. Related FAQ entry:
-            <a href="http://cfpaypal.dwbooster.com/faq#q734">http://cfpaypal.dwbooster.com/faq#q734</a></em>
+            <a href="https://cfpaypal.dwbooster.com/faq#q734">https://cfpaypal.dwbooster.com/faq#q734</a></em>
         </td>        
         </tr>
         
@@ -271,7 +271,7 @@ $scriptmethod = cp_contactformpp_get_option('script_load_method','0');
         <td>
           <div id="cpcfppmoreinlink1"><input type="checkbox" readonly disabled="disabled" name="enable_paypal2" size="40" value="1" checked /> &nbsp; [<a href="javascript:displaymorein(1);">+ more information</a>]</div>
           <div id="cpcfppmorein1" style="display:none;border:1px solid black;background-color:#ffffcc;padding:10px;">
-           <p>Note: The <a href="http://cfpaypal.dwbooster.com/download">pro version</a> works also without PayPal to convert the form in a general purpose form.</p>
+           <p>Note: The <a href="https://cfpaypal.dwbooster.com/download">pro version</a> works also without PayPal to convert the form in a general purpose form.</p>
            [<a href="javascript:displaylessin(1);">- less information</a>]
           </div>
         </td>
@@ -283,7 +283,7 @@ $scriptmethod = cp_contactformpp_get_option('script_load_method','0');
              
             <div id="cpcfppmoreinlink2">N/A &nbsp; [<a href="javascript:displaymorein(2);">+ more information</a>]</div>
             <div id="cpcfppmorein2" style="display:none;border:1px solid black;background-color:#ffffcc;padding:10px;">       
-             <p>Note: This setting applies only for the <a href="http://cfpaypal.dwbooster.com/download">pro version</a> that supports multiplem field types.</p>
+             <p>Note: This setting applies only for the <a href="https://cfpaypal.dwbooster.com/download">pro version</a> that supports multiplem field types.</p>
              <p>If marked, any price in the selected checkboxes, radiobuttons and dropdown fields will be added to the above request cost. 
                 Prices will be identified if are entered in the format $NNNN.NN, example: $30 , $24.99 and also $1,499.99. Also works with the GBP "&pound;" and EUR "&euro;" signs.</p>
              <p>For example, you can create a drop-down/select field with these options:
@@ -305,7 +305,7 @@ $scriptmethod = cp_contactformpp_get_option('script_load_method','0');
             <div id="cpcfppmoreinlink3"><select id="paypal_price_field" name="paypal_price_field" def="<?php echo esc_attr(cp_contactformpp_get_option('paypal_price_field', '')); ?>"></select> &nbsp; [<a href="javascript:displaymorein(3);">+ more information</a>]</div>
             <div id="cpcfppmorein3" style="display:none;border:1px solid black;background-color:#ffffcc;padding:10px;">
              <p>If selected, any price in the selected field will be added to the above request cost. Use this field for example for having an open donation amount.</p>
-             <p>This feature is more useful in the <a href="http://cfpaypal.dwbooster.com/download">pro version</a> since it supports adding new custom fields.</p>
+             <p>This feature is more useful in the <a href="https://cfpaypal.dwbooster.com/download">pro version</a> since it supports adding new custom fields.</p>
              [<a href="javascript:displaylessin(3);">- less information</a>]
             </div>
         </td>
@@ -318,7 +318,7 @@ $scriptmethod = cp_contactformpp_get_option('script_load_method','0');
              <option value="0" <?php if (cp_contactformpp_get_option('paypal_notiemails','0') != '0') echo 'selected'; ?>>When paid: AFTER receiving the PayPal payment</option>             
             </select> &nbsp; [<a href="javascript:displaymorein(4);">+ more information</a>]</div>
             <div id="cpcfppmorein4" style="display:none;border:1px solid black;background-color:#ffffcc;padding:10px;">             
-             <p>The <a href="http://cfpaypal.dwbooster.com/download">pro version</a> includes these options:</p>
+             <p>The <a href="https://cfpaypal.dwbooster.com/download">pro version</a> includes these options:</p>
              <p>
                &nbsp; &nbsp; - When paid: AFTER receiving the PayPal payment.<br />
                &nbsp; &nbsp; - Always: BEFORE receiving the PayPal payment.
@@ -337,7 +337,7 @@ $scriptmethod = cp_contactformpp_get_option('script_load_method','0');
              <option value="0" <?php if (cp_contactformpp_get_option('paypal_zero_payment',CP_CONTACTFORMPP_DEFAULT_PAYPAL_ZERO_PAYMENT) != '1') echo 'selected'; ?>>Let the user enter any amount at PayPal (ex: for a donation)</option>              
             </select> &nbsp; [<a href="javascript:displaymorein(6);">+ more information</a>]</div>
             <div id="cpcfppmorein6" style="display:none;border:1px solid black;background-color:#ffffcc;padding:10px;">             
-             <p>The <a href="http://cfpaypal.dwbooster.com/download">pro version</a> includes these options:</p>
+             <p>The <a href="https://cfpaypal.dwbooster.com/download">pro version</a> includes these options:</p>
              <p>
                &nbsp; &nbsp; - Let the user enter any amount at PayPal (ex: for a donation).<br />
                &nbsp; &nbsp; - Don't require any payment. Form is submitted skiping the PayPal page.
@@ -351,7 +351,7 @@ $scriptmethod = cp_contactformpp_get_option('script_load_method','0');
         <tr valign="top">
         <th scope="row">Discount Codes</th>
         <td> 
-           <em>N/A - This feature is available in the <a href="http://cfpaypal.dwbooster.com/download">pro version</a>.</em>
+           <em>N/A - This feature is available in the <a href="https://cfpaypal.dwbooster.com/download">pro version</a>.</em>
         </td>
         </tr>  
                    
@@ -366,7 +366,7 @@ $scriptmethod = cp_contactformpp_get_option('script_load_method','0');
   <div class="inside">   
 
      <em>Note: This free version includes a classic predefined contact form. The form builder for a total form customization
-         is available in the <a href="http://cfpaypal.dwbooster.com/download">pro version</a>.</em>
+         is available in the <a href="https://cfpaypal.dwbooster.com/download">pro version</a>.</em>
         <br /><br />
      <input type="hidden" name="form_structure" id="form_structure" size="180" value="<?php echo str_replace('"','&quot;',str_replace("\r","",str_replace("\n","",esc_attr(cp_contactformpp_cleanJSON(cp_contactformpp_get_option('form_structure', CP_CONTACTFORMPP_DEFAULT_form_structure)))))); ?>" />
      
@@ -477,7 +477,7 @@ $scriptmethod = cp_contactformpp_get_option('script_load_method','0');
         <td colspan="2"> - The  <em>class="pbSubmit"</em> can be used to modify the button styles. <br />
         - The styles can be applied into any of the CSS files of your theme or into the CSS file <em>"cp-contact-form-with-paypal\css\stylepublic.css"</em>. <br />
         - For further modifications the submit button is located at the end of the file <em>"cp_contactformpp_public_int.inc.php"</em>.<br />
-        - For general CSS styles modifications to the form and samples <a href="http://cfpaypal.dwbooster.com/faq#q82" target="_blank">check this FAQ</a>.
+        - For general CSS styles modifications to the form and samples <a href="https://cfpaypal.dwbooster.com/faq#q82" target="_blank">check this FAQ</a>.
         </tr>
      </table>
   </div>    
@@ -669,7 +669,7 @@ $scriptmethod = cp_contactformpp_get_option('script_load_method','0');
 <p class="submit"><input type="submit" name="submit" id="submit" class="button-primary" value="Save Changes"  /></p>
 
 
-[<a href="https://wordpress.org/support/plugin/cp-contact-form-with-paypal#new-post" target="_blank">Request Custom Modifications</a>] | [<a href="http://cfpaypal.dwbooster.com/" target="_blank">Help</a>]
+[<a href="https://wordpress.org/support/plugin/cp-contact-form-with-paypal#new-post" target="_blank">Request Custom Modifications</a>] | [<a href="https://cfpaypal.dwbooster.com/" target="_blank">Help</a>]
 </form>
 </div>
 <script type="text/javascript">generateCaptcha();</script>
