@@ -1,0 +1,50 @@
+/*
+ Theme Name:   Sela Child
+ Theme URI:    https://wordpress.com/themes/sela/
+ Description:  Sela Child Theme
+ Author:       Scott Norris
+ Template:     sela
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  sela-child
+*/
+
+@import url("../sela/style.css");
+ 
+/* =Theme customization starts here */
+
+h1, h1.site-title, h2.site-description {
+	font-family: 'Bree Serif', serif;
+}
+
+h2.site-description {
+	font-size: 2em;
+}
+
+
+/******************************************
+Header
+******************************************/
+
+.site-branding {
+	min-height: 400px;
+}
+
+@media screen and (max-width:300px) {
+	.site-branding {
+		min-height: 0px;
+	}
+}
+
+
+/******************************************
+Content
+******************************************/
+
+entry-content {
+  font-size: 16px;
+}
+
+

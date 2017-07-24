@@ -1,0 +1,980 @@
+# Copyright (C) 2014 Benchmark Email Lite
+# This file is distributed under the same license as the Benchmark Email Lite package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Benchmark Email Lite 2.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/benchmark-email-"
+"lite\n"
+"POT-Creation-Date: 2016-06-16 08:58-0700\n"
+"PO-Revision-Date: 2016-06-25 14:48-0700\n"
+"Last-Translator: Sean Conklin <support@benchmarkemail.com>\n"
+"Language-Team: Benchmark Email Support <support@benchmarkemail.com>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: lib/class.api.php:31
+msgid " seconds"
+msgstr "segundos"
+
+#: lib/class.api.php:201 lib/class.posts.php:125
+msgid "preexists"
+msgstr "preexiste"
+
+#: lib/class.api.php:208
+msgid "updated"
+msgstr "atualizada"
+
+#: lib/class.api.php:215
+msgid "created"
+msgstr "criado"
+
+#: lib/class.display.php:243 lib/class.reports.php:165
+#: lib/class.reports.php:198
+msgid "URL"
+msgstr "URL"
+
+#: lib/class.display.php:244 lib/class.reports.php:152 lib/class.widget.php:156
+msgid "Country"
+msgstr "País"
+
+#: lib/class.display.php:245 lib/class.reports.php:153
+#: views/reports.level2.html.php:98
+msgid "Opens"
+msgstr "Abertos"
+
+#: lib/class.display.php:246 lib/class.reports.php:166
+msgid "Clicks"
+msgstr "Cliques"
+
+#: lib/class.display.php:247 lib/class.reports.php:167
+#: views/reports.level2.html.php:21
+msgid "Percent"
+msgstr "Porcentagem"
+
+#: lib/class.display.php:248 lib/class.reports.php:181
+#: lib/class.reports.php:213 lib/class.reports.php:227
+#: lib/class.reports.php:242 lib/class.reports.php:256
+#: lib/class.reports.php:270
+msgid "Name"
+msgstr "Nome"
+
+#: lib/class.display.php:249 lib/class.reports.php:182
+#: lib/class.reports.php:199 lib/class.reports.php:214
+#: lib/class.reports.php:228 lib/class.reports.php:243
+#: lib/class.reports.php:257 lib/class.reports.php:271 lib/class.widget.php:180
+msgid "Email"
+msgstr "Email"
+
+#: lib/class.display.php:250 lib/class.reports.php:183
+#: lib/class.reports.php:200 lib/class.reports.php:215
+#: lib/class.reports.php:258 lib/class.reports.php:272
+msgid "Date"
+msgstr "Data"
+
+#: lib/class.display.php:251 lib/class.reports.php:244
+msgid "Bounce Type"
+msgstr "Tipo Bounce"
+
+#: lib/class.posts.php:128
+msgid ""
+"An email campaign by this name was previously sent and cannot be updated or "
+"sent again. Please choose another email name."
+msgstr "Uma campanha com este nome já existe. Favor escolher outro nome."
+
+#: lib/class.posts.php:137
+msgid ""
+"There was a problem creating or updating your email campaign. Please try "
+"again later."
+msgstr ""
+"Houve um problema ao criar ou atualizar sua campanha de email. Por favor "
+"tente novamente."
+
+#: lib/class.posts.php:171
+msgid "Sending was capped at the first 5 test addresses."
+msgstr "Envio finalizado aos primeiros 5 endereços para teste."
+
+#: lib/class.posts.php:174
+msgid "A test of your campaign %s was successfully sent."
+msgstr "Um teste de sua campanha %s foi enviada corretamente."
+
+#: lib/class.posts.php:188
+msgid "Your campaign %s was successfully sent."
+msgstr "Sua campanha %s foi enviada corretamente."
+
+#: lib/class.posts.php:205
+msgid "Your campaign %s was successfully scheduled for %s."
+msgstr "Sua campanha %s foi agendada com sucesso para %s."
+
+#: lib/class.reports.php:102 lib/class.reports.php:103
+msgid "Back to Emails"
+msgstr "Voltar aos Emails"
+
+#: lib/class.reports.php:175
+msgid "Link Clicked Detail Report"
+msgstr "Link Clicado Relatório Detalhado"
+
+#: lib/class.reports.php:176
+msgid "Displays the subscribers who clicked on the following email link:"
+msgstr "Exibe os assinantes que clicaram no link seguinte e-mail:"
+
+#: lib/class.reports.php:190
+msgid "Links Clicked Report"
+msgstr "Link Clicado Relatório"
+
+#: lib/class.reports.php:191
+msgid "Displays the subscribers who clicked on specific links in the email."
+msgstr "Exibe os assinantes que clicaram em links específicos no e-mail."
+
+#: lib/class.reports.php:208
+msgid "Emails Opened Report"
+msgstr "Emails Abertos Relatório"
+
+#: lib/class.reports.php:209
+msgid "Displays the subscribers who opened the email in their email client."
+msgstr "Exibe os assinantes que abriram o e-mail em seu cliente de e-mail."
+
+#: lib/class.reports.php:222
+msgid "Emails Unopened Report"
+msgstr "Emails Unopened Relatório"
+
+#: lib/class.reports.php:223
+msgid "Displays the subscribers who never opened the email."
+msgstr "Exibe os assinantes que nunca abriu o e-mail."
+
+#: lib/class.reports.php:235
+msgid "Emails Bounced Report"
+msgstr "Emails Bounced Relatório"
+
+#: lib/class.reports.php:236
+msgid ""
+"Displays the subscribers whose email service provider rejected the email."
+msgstr ""
+"Exibe os assinantes cujos provedor de serviços de e-mail rejeitou o e-mail."
+
+#: lib/class.reports.php:251
+msgid "Emails Unsubscribed Report"
+msgstr "Emails Sobras de Relatório"
+
+#: lib/class.reports.php:252
+msgid ""
+"Displays previous subscribers who unsubscribed from the list during this "
+"campaign."
+msgstr ""
+"Exibe assinantes anteriores que não subscritas da lista durante esta "
+"campanha."
+
+#: lib/class.reports.php:265
+msgid "Emails Forwarded Report"
+msgstr "Emails Encaminhados Relatório"
+
+#: lib/class.reports.php:266
+msgid ""
+"Displays the subscribers who successfully forwarded the email to others."
+msgstr "Exibe os assinantes que encaminhados com êxito o e-mail para outros."
+
+#: lib/class.settings.php:7
+msgid "Valid API key and API server connection."
+msgstr "Chave API e conexão do servidor API válidos."
+
+#: lib/class.settings.php:12
+msgid "Invalid API key or API server connection problem."
+msgstr "Problema com a conexão ao sevidor API ou chave API inválida."
+
+#: lib/class.settings.php:43
+msgid ""
+"Please configure your API key(s) on the %sBenchmark Email Lite settings page."
+"%s"
+msgstr ""
+"Por favor configurar sua(s) Chave(s) API na %spágina de configuração da "
+"Benchmark Email Lite.%s"
+
+#: lib/class.settings.php:124
+msgid "Benchmark Email Credentials"
+msgstr "Credenciais da Benchmark Email"
+
+#: lib/class.settings.php:125
+msgid "New Email Campaign Preferences"
+msgstr "Preferências de Nova Campanha de Email"
+
+#: lib/class.settings.php:126
+msgid "Diagnostics"
+msgstr "Diagnóstico"
+
+#: lib/class.settings.php:127 lib/class.settings.php:143
+#: lib/class.settings.php:167
+msgid "Email Template"
+msgstr "Template de Email"
+
+#: lib/class.settings.php:130
+msgid "API Key(s) from your Benchmark Email account(s)"
+msgstr "Chave(s) API de sua(s) conta(s) da Benchmark Email"
+
+#: lib/class.settings.php:131
+msgid "Webpage version"
+msgstr "Versão página web"
+
+#: lib/class.settings.php:132
+msgid "Connection Timeout (seconds)"
+msgstr "Conexão de tempo de espera (segundos)"
+
+#: lib/class.settings.php:133
+msgid "Email Template HTML"
+msgstr "Template de Email HTML"
+
+#: lib/class.settings.php:141 lib/class.settings.php:165
+msgid "Emails"
+msgstr "Emails"
+
+#: lib/class.settings.php:142 lib/class.settings.php:151
+#: lib/class.settings.php:166
+msgid "Settings"
+msgstr "Configurações"
+
+#: lib/class.settings.php:144 lib/class.settings.php:168
+msgid "Communication Log"
+msgstr "Log de Comunicação"
+
+#: lib/class.settings.php:215
+msgid "Save Changes"
+msgstr "Salvar Mudanças"
+
+#: lib/class.settings.php:218
+msgid "Reset Changes"
+msgstr "Resetar Mudanças"
+
+#: lib/class.settings.php:226
+msgid "Reset to Defaults"
+msgstr "Redefinir Padrões"
+
+#: lib/class.settings.php:227
+msgid ""
+"Are you sure you wish to load the default values and lose your "
+"customizations?"
+msgstr ""
+"Tem certeza de que deseja carregar os valores padres e perder sua "
+"configuração personalizada?"
+
+#: lib/class.settings.php:239
+msgid "Sign up for a FREE lifetime account"
+msgstr "Crie uma Conta Grátis ou entre em sua conta"
+
+#: lib/class.settings.php:243
+msgid "log in to Benchmark Email to get your API key"
+msgstr "faça o login para Benchmark Email para obter a sua chave API"
+
+#: lib/class.settings.php:248
+msgid ""
+"The API Key(s) connect your WordPress site with your Benchmark Email "
+"account(s)."
+msgstr ""
+"As chaves API conectam seu site WordPress à sua conta da Benchmark Email."
+
+#: lib/class.settings.php:249
+msgid "Only one key is required per Benchmark Email account."
+msgstr "Apenas uma chave é requerida por conta."
+
+#: lib/class.settings.php:250
+msgid "API Key(s) may expire after one year."
+msgstr "As Chaves API podem expirar após 1 ano."
+
+#: lib/class.settings.php:256
+msgid "or"
+msgstr "ou"
+
+#: lib/class.settings.php:264
+msgid ""
+"The following is for advanced users to customize the HTML template that "
+"wraps the output of the post-to-campaign feature."
+msgstr ""
+"Abaixo está o modelo para edição por usuários avançados que desejam "
+"personalizar o código HTML."
+
+#: lib/class.settings.php:317
+msgid "Include the link to view a Webpage Version at the top of emails?"
+msgstr "Incluir o link para ver uma Versão Webpage no topo de emails?"
+
+#: lib/class.settings.php:343
+msgid "This article helps you with email template coding."
+msgstr "Este artigo ajuda você com a codificação do modelo de e-mail."
+
+#: lib/class.settings.php:348
+msgid "Look up color codes here."
+msgstr "Veja os códigos de cores aqui."
+
+#: lib/class.settings.php:351
+msgid "will be replaced with the WP post body."
+msgstr "será substituído pelo corpo do post WP."
+
+#: lib/class.settings.php:352
+msgid "will be replaced with the WP post categories."
+msgstr "será substituído pela categoria do post WP."
+
+#: lib/class.settings.php:353
+msgid "will be replaced with the WP site admin email hash (for Gravatar)."
+msgstr ""
+"será substituído com o site WP hash de administração de e-mail (para "
+"Gravatar)."
+
+#: lib/class.settings.php:354
+msgid "will be replaced with the WP post excerpt."
+msgstr "será substituído pelo resumo do post WP."
+
+#: lib/class.settings.php:355
+msgid "will be replaced with the WP post featured image in full size."
+msgstr ""
+"será substituído pela imagem em destaque do post WP, em seu tamanho original."
+
+#: lib/class.settings.php:356
+msgid "will be replaced with the WP post featured image in large size."
+msgstr "será substituído pela imagem em destaque do post WP, tamanho grande."
+
+#: lib/class.settings.php:357
+msgid "will be replaced with the WP post featured image in medium size."
+msgstr "será substituído pela imagem em destaque do post WP, tamanho médio."
+
+#: lib/class.settings.php:358
+msgid "will be replaced with the WP post featured image in thumbnail size."
+msgstr "será substituído pela imagem em destaque do post WP, em miniatura."
+
+#: lib/class.settings.php:359
+msgid "will be replaced with the WP post permalink."
+msgstr "será substituído pelo permalink do post WP."
+
+#: lib/class.settings.php:360
+msgid "will be replaced with the WP post tags."
+msgstr "será substituído pelos tags do post WP."
+
+#: lib/class.settings.php:361
+msgid "will be replaced with the WP post title."
+msgstr "será substituído pelo título do post WP."
+
+#: lib/class.settings.php:364
+msgid ""
+"If caching is enabled on your hosting service, you may need to refresh cache "
+"after saving changes."
+msgstr ""
+"Se o cache estiver ativado no seu serviço de hospedagem, você poderá "
+"precisar atualizar o cache após salvar as alterações."
+
+#: lib/class.settings.php:366
+msgid "Be sure to send email tests after making changes to the email template!"
+msgstr ""
+"Certifique-se de enviar um e-mail teste depois de fazer as alterações no "
+"modelo de e-mail!"
+
+#: lib/class.settings.php:414
+msgid "Settings saved."
+msgstr "Configurações Salvas."
+
+#: lib/class.widget.php:123
+msgid ""
+"We moved %d widget(s) of no longer existing API keys to your Inactive "
+"Widgets sidebar."
+msgstr ""
+"Movemos os %d widget(s) da(s) chave(s) API não mais existente(s) para sua "
+"coluna lateral de Widgets Inativos."
+
+#: lib/class.widget.php:138
+msgid "Create a Benchmark Email newsletter widget in WordPress."
+msgstr "Criar um widget newsletter Email Referência em WordPress."
+
+#: lib/class.widget.php:149
+msgid "First Name"
+msgstr "Nome"
+
+#: lib/class.widget.php:150
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: lib/class.widget.php:151
+msgid "Middle Name"
+msgstr "Nome do Meio"
+
+#: lib/class.widget.php:152
+msgid "Address"
+msgstr "Endereço"
+
+#: lib/class.widget.php:153
+msgid "City"
+msgstr "Cidade"
+
+#: lib/class.widget.php:154
+msgid "State"
+msgstr "Estado"
+
+#: lib/class.widget.php:155
+msgid "Zip"
+msgstr "CEP"
+
+#: lib/class.widget.php:157
+msgid "Phone"
+msgstr "Telefone"
+
+#: lib/class.widget.php:158
+msgid "Fax"
+msgstr "Fax"
+
+#: lib/class.widget.php:159
+msgid "Cell Phone"
+msgstr "Celular"
+
+#: lib/class.widget.php:160
+msgid "Company Name"
+msgstr "Nome da Empresa"
+
+#: lib/class.widget.php:161
+msgid "Job Title"
+msgstr "Nome do seu Cargo"
+
+#: lib/class.widget.php:162
+msgid "Business Phone"
+msgstr "Tel. Empresarial"
+
+#: lib/class.widget.php:163
+msgid "Business Fax"
+msgstr "Fax Empresarial"
+
+#: lib/class.widget.php:164
+msgid "Business Address"
+msgstr "Endereço Empresarial"
+
+#: lib/class.widget.php:165
+msgid "Business City"
+msgstr "Cidade Empresarial"
+
+#: lib/class.widget.php:166
+msgid "Business State"
+msgstr "Estado Empresarial"
+
+#: lib/class.widget.php:167
+msgid "Business Zip"
+msgstr "CEP Empresarial"
+
+#: lib/class.widget.php:168
+msgid "Business Country"
+msgstr "País Empresarial"
+
+#: lib/class.widget.php:169
+msgid "Notes"
+msgstr "Notas"
+
+#: lib/class.widget.php:170
+msgid "Extra 3"
+msgstr "Outro 3"
+
+#: lib/class.widget.php:171
+msgid "Extra 4"
+msgstr "Outro 4"
+
+#: lib/class.widget.php:172
+msgid "Extra 5"
+msgstr "Outro 5"
+
+#: lib/class.widget.php:173
+msgid "Extra 6"
+msgstr "Outro 6"
+
+#: lib/class.widget.php:178
+msgid "Subscribe"
+msgstr "Assinar"
+
+#: lib/class.widget.php:179
+msgid "Get the latest news and information direct from us to you!"
+msgstr "Receba nossas notícias e informações mais recentes!"
+
+#: lib/class.widget.php:186
+msgid "Subscribe to Newsletter"
+msgstr "Suscreva-se à Newsletter"
+
+#: lib/class.widget.php:352
+msgid "Please enter a valid email address."
+msgstr "Favor inserir um endereço de email válido."
+
+#: lib/class.widget.php:363
+msgid "A verification email has been sent."
+msgstr "Um email de verificação foi enviado."
+
+#: lib/class.widget.php:364
+msgid "Successfully updated subscription."
+msgstr "Subscrição atualizada com sucesso."
+
+#: lib/class.widget.php:365
+msgid "Successfully queued subscription."
+msgstr "Subscrição realizada com sucesso."
+
+#: views/metabox.html.php:8
+msgid "Select a list for this campaign"
+msgstr "Selecione uma lista para esta campanha"
+
+#: views/metabox.html.php:13 views/reports.level2.html.php:4
+#: views/reports.level3.html.php:11
+msgid "Email name"
+msgstr "Nome do email"
+
+#: views/metabox.html.php:15
+msgid "For your personal use (not displayed in your emails)."
+msgstr "Para seu uso pessoal (não será mostrado em seus e-mails)."
+
+#: views/metabox.html.php:19
+msgid "From name"
+msgstr "Nome do remetente"
+
+#: views/metabox.html.php:21
+msgid "Use something they'll instantly recognize, like your company name."
+msgstr ""
+"Use algo que reconhecerão instantaneamente, como o nome de sua empresa."
+
+#: views/metabox.html.php:25 views/reports.level2.html.php:5
+#: views/reports.level3.html.php:13
+msgid "Subject"
+msgstr "Assunto"
+
+#: views/metabox.html.php:27
+msgid "Interesting, non-spammy subject lines help your open rates."
+msgstr "Assuntos interessantes, que ajudem suas taxas de aberturas."
+
+#: views/metabox.html.php:34
+msgid "Send a test email"
+msgstr "Envie um email teste"
+
+#: views/metabox.html.php:39
+msgid ""
+"Send a test version of your email. Enter up to 5 email addresses separated "
+"by a comma."
+msgstr ""
+"Envie versão teste de seu email. Insira até 5 endereços de email separados "
+"por vírgulas."
+
+#: views/metabox.html.php:44
+msgid "Send immediately"
+msgstr "Envie imediatamente"
+
+#: views/metabox.html.php:45
+msgid "Your email will be sent within the next 15 mins."
+msgstr "O seu email será enviado nos próximos 10 minutos."
+
+#: views/metabox.html.php:50
+msgid "Schedule delivery"
+msgstr "Agendar Envio"
+
+#: views/metabox.html.php:60
+msgid "To schedule in a different timezone, set your"
+msgstr "Para agendar em um fuso horário diferente, configure seu fuso no"
+
+#: views/metabox.html.php:61
+msgid "WordPress"
+msgstr "WordPress"
+
+#: views/metabox.html.php:62
+msgid "and"
+msgstr "e"
+
+#: views/metabox.html.php:64
+msgid "Benchmark Email"
+msgstr "Benchmark Email"
+
+#: views/metabox.html.php:65
+msgid "timezones"
+msgstr "fuso horário"
+
+#: views/metabox.html.php:69 views/settings.html.php:155
+#: views/widget.admin.html.php:170
+msgid "Need help? Please call Benchmark Email at 800.430.4095."
+msgstr "Ajuda? Ligue para Benchmark! BR +55 11 22462778 | PT +351 21 112 1819"
+
+#: views/metabox.html.php:117
+msgid "Please enter an email name."
+msgstr "Favor inserir nome para o email."
+
+#: views/metabox.html.php:126
+msgid "Please enter a from name."
+msgstr "Favor inserir nome do remetente."
+
+#: views/metabox.html.php:135
+msgid "Please enter a subject."
+msgstr "Favor inserir um assunto."
+
+#: views/metabox.html.php:144
+msgid "Please enter email address(es) to send the test email to."
+msgstr ""
+"Favor inserir o(s) endereço(s) de email usado(s) para envio do email teste."
+
+#: views/metabox.html.php:148
+msgid "Please do not exceed the limit of 5 email addresses."
+msgstr "Favor não exceder o limite de 5 endereços de email."
+
+#: views/reports.level1.html.php:2
+msgid "Refresh Data"
+msgstr "Atualizar Dados"
+
+#: views/reports.level1.html.php:16
+msgid "Email Name"
+msgstr "Nome do Email"
+
+#: views/reports.level1.html.php:17
+msgid "Emails for API key"
+msgstr "Emails para a Chave API"
+
+#: views/reports.level1.html.php:19
+msgid "Date Modified"
+msgstr "Data Modificada"
+
+#: views/reports.level1.html.php:30
+msgid "List"
+msgstr "Lista"
+
+#: views/reports.level1.html.php:44
+msgid "No results found for the following API key(s)"
+msgstr "Não há resultados para a(s) seguinte(s) chave(s) API"
+
+#: views/reports.level1.html.php:54
+msgid "Data will start appearing only after your emails have been sent."
+msgstr ""
+"Os dados começarão a aparecer somente após seus e-mails serem enviados."
+
+#: views/reports.level2.html.php:14
+msgid "Email Statistics"
+msgstr "Estatísticas do Email"
+
+#: views/reports.level2.html.php:19
+msgid "Statistic"
+msgstr "Estatística"
+
+#: views/reports.level2.html.php:20
+msgid "Value"
+msgstr "Valor"
+
+#: views/reports.level2.html.php:26
+msgid "Total Emails Sent"
+msgstr "Total de Emails Enviados"
+
+#: views/reports.level2.html.php:31
+msgid "Opened Emails"
+msgstr "Emails Abertos"
+
+#: views/reports.level2.html.php:33 views/reports.level2.html.php:42
+#: views/reports.level2.html.php:51 views/reports.level2.html.php:58
+#: views/reports.level2.html.php:67 views/reports.level2.html.php:76
+msgid "Click to view report"
+msgstr "Clique para ver relatório"
+
+#: views/reports.level2.html.php:40
+msgid "Links Clicked"
+msgstr "Links Clicados"
+
+#: views/reports.level2.html.php:49
+msgid "Emails Forwarded"
+msgstr "Emails Encaminhados"
+
+#: views/reports.level2.html.php:56
+msgid "Emails Bounced"
+msgstr "Emails Rejeitados"
+
+#: views/reports.level2.html.php:65 views/reports.level2.html.php:104
+msgid "Unsubscribes"
+msgstr "Emails Removidos"
+
+#: views/reports.level2.html.php:74 views/reports.level2.html.php:146
+msgid "Unopened"
+msgstr "Não Abertos"
+
+#: views/reports.level2.html.php:83
+msgid "Abuse Reports"
+msgstr "Relatórios de Abuso"
+
+#: views/reports.level2.html.php:90
+msgid "Email Reports"
+msgstr "Relatórios de Email"
+
+#: views/reports.level2.html.php:101
+msgid "Bounces"
+msgstr "Rejeições"
+
+#: views/reports.level2.html.php:107
+msgid "Forwards"
+msgstr "Encaminhados"
+
+#: views/reports.level2.html.php:110
+msgid "Unopens"
+msgstr "Não Abertos"
+
+#: views/reports.level2.html.php:122
+msgid "Opens by Location"
+msgstr "Abertos por Localização"
+
+#: views/reports.level2.html.php:128
+msgid "Click Performance"
+msgstr "Performance de Cliques"
+
+#: views/reports.level2.html.php:144
+msgid "Opened"
+msgstr "Abertos"
+
+#: views/reports.level2.html.php:145
+msgid "Bounced"
+msgstr "Rejeições"
+
+#: views/reports.level3.html.php:2 views/reports.level3.html.php:3
+msgid "Back to Email Summary"
+msgstr "Voltar ao Sumário Email"
+
+#: views/settings.html.php:22
+msgid "Connection Timeout"
+msgstr "Conexão de tempo de espera"
+
+#: views/settings.html.php:37
+msgid "Attempt to Reconnect"
+msgstr "Tentar Reconectar"
+
+#: views/settings.html.php:68
+msgid "Displaying %d recent communication logs"
+msgstr "Exibindo %d recente dos logs de comunicação"
+
+#: views/settings.html.php:77
+msgid "Started"
+msgstr "Início"
+
+#: views/settings.html.php:78
+msgid "Lapsed"
+msgstr "Duração"
+
+#: views/settings.html.php:79
+msgid "Method"
+msgstr "Método"
+
+#: views/settings.html.php:80 views/settings.html.php:119
+msgid "Show/Hide"
+msgstr "Exibir/Ocultar"
+
+#: views/settings.html.php:98
+msgid "Request"
+msgstr "Solicitação"
+
+#: views/settings.html.php:100
+msgid "Response"
+msgstr "Resposta"
+
+#: views/settings.html.php:111
+msgid "Queue schedule in cron"
+msgstr "Fila programada no cron"
+
+#: views/settings.html.php:116
+msgid "Starts"
+msgstr "Início"
+
+#: views/settings.html.php:117
+msgid "API Key"
+msgstr "Chave API"
+
+#: views/settings.html.php:118
+msgid "List or Form"
+msgstr "Lista ou Formulário"
+
+#: views/settings.html.php:137
+msgid "Fields"
+msgstr "Campos"
+
+#: views/widget.admin.html.php:3
+msgid "Contact list or signup form relationship"
+msgstr "A lista de contatos ou forma de relacionamento de inscrição"
+
+#: views/widget.admin.html.php:10
+msgid ""
+"Choose a single list or a sign-up form from your Benchmark Email account. "
+"Choosing a signup form means we use the Opt In confirmation email and "
+"subscription list(s) defined within the selected signup form."
+msgstr ""
+"Escolha uma única lista ou um formulário de inscrição de sua conta da "
+"Benchmark Email. A escolha de um formulário de inscrição significa que "
+"podemos usar lista(s) Opt In (de emails confirmados) definidas dentro do "
+"formulário de inscrição selecionado."
+
+#: views/widget.admin.html.php:15
+msgid "Signup form title"
+msgstr "Título para Formulário de Inscrição"
+
+#: views/widget.admin.html.php:23
+msgid "Signup form introduction"
+msgstr "Introdução ao Formulário de Inscrição"
+
+#: views/widget.admin.html.php:30
+msgid "Automatically add paragraphs"
+msgstr "Adicionar parágrafos automaticamente"
+
+#: views/widget.admin.html.php:35
+msgid "Limit to page"
+msgstr "Limite da página"
+
+#: views/widget.admin.html.php:47
+msgid "Show Everywhere"
+msgstr "Preencher por completo"
+
+#: views/widget.admin.html.php:56
+msgid "Submit button text"
+msgstr "Insira texto para o botão"
+
+#: views/widget.admin.html.php:65
+msgid "Field Name"
+msgstr "Nome do Campo"
+
+#: views/widget.admin.html.php:66
+msgid "Label"
+msgstr "Etiqueta"
+
+#: views/widget.admin.html.php:67
+msgid "Required"
+msgstr "Obrigatório"
+
+#: views/widget.admin.html.php:68
+msgid "Tools"
+msgstr "Mudar"
+
+#: views/widget.admin.html.php:89
+msgid "Email address"
+msgstr "Email"
+
+#: views/widget.admin.html.php:145
+msgid "Add new field"
+msgstr "Adicionar novo campo"
+
+#: views/widget.admin.html.php:149
+msgid "Optional Shortcode"
+msgstr "Código opcional abreviado"
+
+#: views/widget.admin.html.php:166
+msgid "Click the Save button to generate a shortcode for this widget."
+msgstr "Clique no botão Salvar para gerar um código para este widget."
+
+#: views/widget.frontend.html.php:31
+msgid "Loading - Please wait"
+msgstr "Carregando – Por favor aguarde"
+
+#: views/widget.frontend.html.php:56
+msgid "Please complete the field(s):"
+msgstr "Por favor complete este(s) campo(s):"
+
+#. Plugin Name of the plugin/theme
+msgid "Benchmark Email Lite"
+msgstr "Benchmark Email Lite"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.beautomated.com/benchmark-email-lite/"
+msgstr "http://www.beautomated.com/benchmark-email-lite/"
+
+#. Description of the plugin/theme
+msgid ""
+"Benchmark Email Lite lets you build an email list right from your WordPress "
+"site, and easily send your subscribers email versions of your blog posts."
+msgstr ""
+"Benchmark Email Lite permite que você crie uma lista de e-mail a partir do "
+"seu site WordPress, e facilmente enviar seus assinantes versões de e-mail de "
+"seus posts."
+
+#. Author of the plugin/theme
+msgid "beAutomated"
+msgstr "beAutomated"
+
+#. Author URI of the plugin/theme
+msgid "http://www.beautomated.com/"
+msgstr "http://www.beautomated.com/"
+
+#~ msgid ""
+#~ "Error connecting to Benchmark Email API server. Connection throttled "
+#~ "until %s to prevent sluggish behavior. If this occurs frequently, try "
+#~ "increasing your %sConnection Timeout setting.%s"
+#~ msgstr ""
+#~ "Erro ao conectar com o servidor API da Benchmark Email. Conexão se perdeu "
+#~ "aos %s para prevenir lentidão. Caso isto ocorra com frequência, tente "
+#~ "aumentar o %Tempo de Espera de Conexão nas Configurações.%s"
+
+#~ msgid "Contact Developer"
+#~ msgstr "Contato Desenvolvedor"
+
+#~ msgid "http://www.benchmarkemail.com/Register?p=68907"
+#~ msgstr "http://www.benchmarkemail.com/br/Register?p=68907"
+
+#~ msgid "This section is for troubleshooting purposes only."
+#~ msgstr "Esta seção é somente para a solução de problemas."
+
+#~ msgid ""
+#~ "For example, one can replace the `img` tag URL with their logo URL from "
+#~ "their WP Media Library."
+#~ msgstr ""
+#~ "Por exemplo, pode-se substituir a URL tag `img` com a URL do logotipo de "
+#~ "seu WP que se encontra na galeria de mídia."
+
+#~ msgid ""
+#~ "One can also change the two color codes `ffffff` to their desired "
+#~ "background and foreground colors."
+#~ msgstr ""
+#~ "Pode-se também alterar os dois códigos de cores `ffffff` ao fundo e as "
+#~ "cores de primeiro plano para o seu desejado."
+
+#~ msgid ""
+#~ "One can also change their fonts by changing the `font-family` priorities "
+#~ "and `font-size` sizing."
+#~ msgstr ""
+#~ "Pode-se também mudar suas fontes, alterando as prioridades `font-family` "
+#~ "e dimensionamento `font-size`."
+
+#~ msgid "https://ui.benchmarkemail.com/help-support/help-FAQ-details?id=100"
+#~ msgstr ""
+#~ "https://ui.benchmarkemail.com/br/help-FAQ/answer/Erros-Comuns-de-"
+#~ "Codificação_HTML"
+
+#~ msgid ""
+#~ "If the connection with the Benchmark Email server takes %s seconds or "
+#~ "longer, disable connections for 5 minutes to prevent site administration "
+#~ "from becoming sluggish. (Default: 10)"
+#~ msgstr ""
+#~ "Se a conexão com o servidor da Benchmark Email levar %s segundos ou mais, "
+#~ "desative a conexão por 5 minutos para prevenir que o site fique lento. "
+#~ "(Padrão: 10)"
+
+#~ msgid "will be replaced with the WP page title."
+#~ msgstr "será substituído com o título da página WP."
+
+#~ msgid "will be replaced with the WP page body."
+#~ msgstr "será substituído com o corpo página WP."
+
+#~ msgid "Failed to add subscription. Please try again later."
+#~ msgstr "Erro ao adicionar subscrição. Favor tentar novamente."
+
+#~ msgid "Failed to update subscription. Please try again later."
+#~ msgstr "Erro ao atualizar subscrição. Favor tentar novamente."
+
+#~ msgid "Failed to communicate. Please try again later."
+#~ msgstr "Erro ao comunicar. Favor tentar novamente."
+
+#~ msgid ""
+#~ "Due to sluggish communications, the Benchmark Email connection is "
+#~ "automatically suspended for up to 5 minutes. If you encounter this error "
+#~ "often, you may set the Connection Timeout setting to a higher value. %s"
+#~ msgstr ""
+#~ "Devido à lentidão na comunicação, a conexão da Benchmark Email foi "
+#~ "suspensa automaticamente por 5 minutos. Se este erro persistir, deve "
+#~ "configurar a Conexão de Tempo de Espera à um valor mais alto. %s"
+
+#~ msgid ""
+#~ "To optionally use this widget inside of any post or page content, copy "
+#~ "and paste this shortcode where you would like the signup form to be "
+#~ "placed. You may also drag this widget into the Inactive Widgets section "
+#~ "to prevent sidebar placement."
+#~ msgstr ""
+#~ "Para usar este widget dentro de qualquer publicação ou conteúdo de "
+#~ "página, copie e cole este código abreviado aonde gostaria de colocar o "
+#~ "formulário. Você também pode arrastrar este widget à seção de widgets "
+#~ "inativos para prevenir colocá-lo como barra lateral."
+
+#~ msgid "Free 30 Day Benchmark Email Trial"
+#~ msgstr "Julgamento de Benchmark Email Grátis"
+
+#~ msgid "Signup for a 30-day FREE Trial"
+#~ msgstr ""
+#~ "Crie uma Conta Grátis ou entre em sua conta da Benchmark para ter acesso "
+#~ "à sua chave API, ou faça o login na Benchmark Email para obter a sua "
+#~ "chave API."

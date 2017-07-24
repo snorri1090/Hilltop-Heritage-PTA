@@ -1,0 +1,329 @@
+/*
+ Theme Name:   Twentythirteen Child
+ Theme URI:    https://wordpress.com/themes/sela/
+ Description:  Twentythirteen Child Theme
+ Author:       Scott Norris
+ Template:     twentythirteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  
+ Tags:         
+ Text Domain:  twentythirtee-child
+*/
+
+@import url("../twentythirteen/style.css");
+
+.entry-header,
+.entry-content,
+.entry-summary,
+.entry-meta {
+  margin: 0 auto;
+  padding: 0 3%;
+  max-width: 900px;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #ae2129;
+}
+
+.nav-menu li a {
+  color: white;
+}
+
+
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a {
+	color: #fff;
+	font-style: italic;
+}
+
+#site-description {
+	clear: none;
+	margin-bottom: 28px;
+	}
+
+h2.site-description {
+	font-size: 36px;
+	text-shadow: 0 2px 4px #000;
+	clear: none;
+}
+
+#header-logo {
+	width: 125px;
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+	}
+
+#header-logo-image {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	}
+
+.site-title {
+    color: #ffffff;
+    text-shadow: 2px 2px #000;
+}
+
+.page-title {
+    font: normal 48px Bitter, Georgia, serif;
+    margin: 0 auto;
+    max-width: 1040px;
+    padding: 30px 0;
+    width: 100%;
+}
+
+
+
+@media (max-width: 643px) {
+#header-logo {
+	width: 80px;
+	}
+}
+
+
+@media (max-width: 860px) {
+	.site-title {
+		font-size: 30px;
+	}
+
+	#content .entry-header,
+	#content .entry-content,
+	#content .entry-summary,
+	#content footer.entry-meta,
+	#content .featured-gallery,
+	.search.sidebar .page-content,
+	.blog.sidebar .page-content,
+	.sidebar .post-navigation .nav-links,
+	.paging-navigation .nav-links,
+	#content .author-info,
+	.comments-area .comments-title,
+	.comments-area .comment-list,
+	.comments-area .comment-navigation,
+	.comment-respond,
+	.sidebar .site-info,
+	.sidebar .paging-navigation .nav-links {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	#content .format-status .entry-content,
+	#content .format-status .entry-met {
+		padding-left: 35px;
+	}
+
+	/* Small menu */
+	.menu-toggle {
+		cursor: pointer;
+		display: inline-block;
+		font: bold 16px/1.3 "Source Sans Pro", Helvetica, sans-serif;
+		margin: 0;
+	}
+
+	.menu-toggle,
+	.menu-toggle:hover,
+	.menu-toggle:focus,
+	.menu-toggle:active {
+		background: none;
+		border: none;
+		color: #141412;
+		padding: 12px 0 12px 20px;
+	}
+
+	.menu-toggle:focus {
+		outline: thin dotted;
+	}
+
+	.menu-toggle:after {
+		content: "\f502";
+		font-size: 12px;
+		padding-left: 8px;
+		vertical-align: -4px;
+	}
+
+	.toggled-on .menu-toggle:after {
+		content: "\f500";
+		vertical-align: 2px;
+	}
+
+	.toggled-on .nav-menu,
+	.toggled-on .nav-menu > ul {
+		display: block;
+		margin-left: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.toggled-on li,
+	.toggled-on .children {
+		display: block;
+	}
+
+	.toggled-on .nav-menu li > ul {
+		background-color: transparent;
+		display: block;
+		float: none;
+		margin-left: 20px;
+		position: relative;
+		left: auto;
+		top: auto;
+	}
+
+	.toggled-on .nav-menu li > ul a {
+		color: #141412;
+		width: auto;
+	}
+
+	.toggled-on .nav-menu li:hover > a,
+	.toggled-on .nav-menu .children a {
+		background-color: transparent;
+		color: #141412;
+	}
+
+	.toggled-on .nav-menu > li a:hover,
+	.toggled-on .nav-menu > ul a:hover {
+		background-color: #db572f;
+		color: #fff;
+	}
+
+	.toggled-on .nav-menu > li a:focus,
+	.toggled-on .nav-menu > ul a:focus {
+		background-color: #220e10;
+		color: #fff;
+	}
+
+	ul.nav-menu,
+	div.nav-menu > ul {
+		display: none;
+	}
+
+	#content .featured-gallery {
+		padding-left: 24px;
+	}
+
+	.gallery-columns-1 .gallery-item {
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.entry-title,
+	.format-chat .entry-title,
+	.format-image .entry-title,
+	.format-gallery .entry-title,
+	.format-video .entry-title {
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.format-quote blockquote,
+	.format-status .entry-content {
+		font-size: 18px;
+	}
+
+	.format-quote blockquote small,
+	.format-quote blockquote cite {
+		font-size: 13px;
+	}
+
+	.error404 .page-title {
+		padding: 40px 0 0;
+	}
+
+	.error404 .page-title:before {
+		content: normal;
+	}
+
+	.comment-author {
+		margin-right: 30px;
+	}
+
+	.comment-author .avatar {
+		height: auto;
+		max-width: 100%;
+	}
+
+	.comment-metadata,
+	.comment-content,
+	.comment-list .reply {
+		width: 70%;
+		width: -webkit-calc(100% - 104px);
+		width:         calc(100% - 104px);
+	}
+
+	.comment-form input[type="text"],
+	.comment-form input[type="email"],
+	.comment-form input[type="url"] {
+		width: -webkit-calc(100% - 120px);
+		width:         calc(100% - 120px);
+	}
+
+	.comment-form textarea {
+		height: 80px; /* Smaller field for mobile. */
+	}
+
+	/* Audio */
+	.format-audio .entry-content:before {
+		display: none;
+	}
+
+	.format-audio .audio-content {
+		background-image: none;
+		float: none;
+		padding-left: 0;
+		width: auto;
+	}
+}
+
+/***********************************************
+Online Order Form 
+**********************************************/
+
+#online-order-form {
+	position: absolute;
+	top: 165px;
+}
+
+
+
+
+/***********************************************
+
+Mailing List Sign Up Form for PTA Membership
+
+**********************************************/
+
+<style type="text/css">
+.bmform_outer513242{width:600px;} .bmform_inner513242{border:0px solid #797a7b;} 
+.bmform_head513242{background-color:#d0d6d9; height:37px; } 
+.bm_headetext513242{color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:18px; padding:6px 10px 0 10px; font-weight:bold;} 
+.bmform_body513242{background-color:#f0f2f3; color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:12px; padding:12px;} 
+.bmform_introtxt513242{font-family:Arial, Helvetica, sans-serif; font-size:12px; padding-bottom:12px;} 
+.bmform_frmtext513242{padding: 5px 0px 3px 0px; display:block; float:none; text-align: left; text-decoration: none; width: auto; font-weight:bold;} 
+.bmform_frm513242{color:#000000; display:block; float:none; font-family:Verdana,sans-serif; font-size:14px; font-style:normal; font-weight:normal; text-align:left; text-decoration:none; width:190px; padding:3px;} 
+.bmform_button513242{text-align:center; padding-top:15px;} 
+.bmform_submit513242{padding:3px 12px 3px 12px;} .bmform_footer513242{}.footer_bdy513242{}.footer_txt513242{}#tdLogo513242 img{margin-bottom:10px;}
+</style>
+
+
+/***********************************************
+
+Mailing List Sign Up Form General
+
+**********************************************/
+
+<style type="text/css">
+.bmform_outer513242{width:600px;} .bmform_inner513242{border:0px solid #797a7b;} 
+.bmform_head513242{background-color:#d0d6d9; height:37px; } 
+.bm_headetext513242{color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:18px; padding:6px 10px 0 10px; font-weight:bold;} 
+.bmform_body513242{background-color:#f0f2f3; color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:12px; padding:12px;} 
+.bmform_introtxt513242{font-family:Arial, Helvetica, sans-serif; font-size:12px; padding-bottom:12px;} 
+.bmform_frmtext513242{padding: 5px 0px 3px 0px; display:block; float:none; text-align: left; text-decoration: none; width: auto; font-weight:bold;} 
+.bmform_frm513242{color:#000000; display:block; float:none; font-family:Verdana,sans-serif; font-size:14px; font-style:normal; font-weight:normal; text-align:left; text-decoration:none; width:190px; padding:3px;} 
+.bmform_button513242{text-align:center; padding-top:15px;} 
+.bmform_submit513242{padding:3px 12px 3px 12px;} .bmform_footer513242{}.footer_bdy513242{}.footer_txt513242{}#tdLogo513242 img{margin-bottom:10px;}
+</style>
